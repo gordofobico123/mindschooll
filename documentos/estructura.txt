@@ -1,0 +1,63 @@
+c:/xampp/htdocs/mindschool/
+├── dashboard.php
+├── index.php (Probablemente el punto de entrada principal o redirige al login/dashboard)
+├── cerrar_sesion.php (o logout.php, para finalizar la sesión del usuario)
+│
+├── includes/
+│   ├── db.php             # Configuración y conexión a la base de datos (MySQLi)
+│   ├── config.php         # Constantes globales (ej. RUTA_BASE, configuraciones de subida)
+│   └── auth.php           # (Sugerido/Opcional) Funciones de ayuda para autenticación y roles
+│   └── functions.php      # (Opcional) Funciones de utilidad general
+│
+├── paginas/
+│   ├── autenticacion/
+│   │   ├── login.php      # Formulario y lógica de inicio de sesión
+│   │   ├── registro.php   # Formulario y lógica de registro de nuevos usuarios
+│   │   └── recuperar_contrasena.php # (Opcional) Lógica para reseteo de contraseña
+│   │
+│   ├── cursos/
+│   │   ├── listar_cursos.php       # Muestra todos los cursos (con filtros para "mis cursos")
+│   │   ├── crear_curso.php         # Formulario y lógica para crear nuevos cursos (admin/profesor)
+│   │   ├── editar_curso.php        # Formulario y lógica para modificar cursos existentes
+│   │   ├── detalle_curso.php       # Vista detallada de un curso para alumnos
+│   │   ├── agregar_modulo.php      # Formulario y lógica para añadir módulos a un curso
+│   │   ├── editar_modulo.php       # (Deducido) Formulario y lógica para editar módulos
+│   │   ├── agregar_leccion.php     # (Deducido) Formulario y lógica para añadir lecciones a un módulo
+│   │   ├── editar_leccion.php      # (Deducido) Formulario y lógica para editar lecciones
+│   │   └── gestionar_contenido_curso.php # (Deducido) Página para organizar módulos y lecciones de un curso
+│   │
+│   ├── admin/
+│   │   ├── gestionar_usuarios.php  # CRUD para usuarios (alumnos, profesores, admins)
+│   │   ├── reportes.php            # Visualización de estadísticas y reportes
+│   │   └── (otras_funciones_admin.php)
+│   │
+│   ├── alumnos/
+│   │   ├── mis_cursos.php          # Lista de cursos en los que el alumno está inscrito
+│   │   ├── progreso.php            # Vista del progreso del alumno en sus cursos
+│   │   └── ver_leccion.php         # (Deducido) Página para que el alumno vea el contenido de una lección
+│   │
+│   ├── profesores/
+│   │   ├── alumnos_inscritos.php   # Lista de alumnos inscritos en los cursos del profesor
+│   │   └── (otras_funciones_profesor.php)
+│   │
+│   └── padres/ (Si aplica este rol)
+│       ├── hijos_matriculados.php # Vista de los hijos y sus cursos/progreso
+│       └── pagos.php              # Gestión de pagos y suscripciones
+│
+├── assets/ (o public/, o recursos/) # Archivos públicos accesibles por el navegador
+│   ├── css/
+│   │   └── style.css        # Hoja de estilos principal (actualmente los estilos están inline)
+│   │   └── (otros.css)
+│   ├── js/
+│   │   └── script.js        # Scripts JavaScript globales o específicos de módulos
+│   │   └── (otros.js)
+│   ├── imagenes/
+│   │   └── logo.png
+│   │   └── (otras_imagenes_del_sitio.jpg)
+│
+└── uploads/ # Directorio para archivos subidos por los usuarios (fuera del acceso web directo si es posible, o con .htaccess)
+    ├── cursos/              # Imágenes de portada de los cursos
+    │   └── (nombre_unico_imagen.jpg)
+    └── lecciones/           # Recursos de las lecciones (PDFs, videos, etc.)
+        └── (nombre_unico_recurso.pdf)
+

@@ -1,0 +1,26 @@
+mindschool/
+├── DB/
+│   └── mindschool.sql         # Esquema de la base de datos
+├── includes/
+│   ├── config.php            # Configuración general
+│   └── db.php                # Conexión a base de datos
+├── paginas/
+│   ├── aulas/                # Gestión de aulas virtuales
+│   ├── autenticacion/        # Login y registro
+│   ├── cursos/               # Gestión de cursos (CRUD)
+│   └── usuarios/             # Gestión de usuarios
+├── recursos/
+│   ├── css/                  # Estilos
+│   └── js/                   # Scripts JavaScript
+├── uploads/                  # Archivos subidos
+└── estructura.txt            # Descripción de la arquitectura
+
+Principales tablas de la base de datos (mindschool.sql):
+- usuarios
+- cursos
+- modulos_curso
+- lecciones
+- inscripciones
+- materiales
+- tareas
+- calificaciones

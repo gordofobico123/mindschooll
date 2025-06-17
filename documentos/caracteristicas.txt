@@ -1,0 +1,43 @@
+Según los documentos proporcionados, la carrera de Ingeniería en Sistemas Computacionales en el Grupo Tecnológico Universitario, especialmente en el contexto del proyecto MINDSCHOOL, debe realizar las siguientes tareas y tener las siguientes características:
+
+**Tareas y responsabilidades de los ingenieros en sistemas computacionales en el proyecto MINDSCHOOL:**
+
+* [cite_start]**Diseño y desarrollo de la plataforma web interactiva MINDSCHOOL:** Esto incluye crear un entorno digital accesible, funcional e intuitivo[cite: 8, 19].
+* [cite_start]**Integración de conocimientos de pedagogía e ingeniería en sistemas:** Para ofrecer una solución completa a las necesidades educativas de los estudiantes[cite: 8].
+* [cite_start]**Implementación de Asesoría Académica Personalizada:** Establecer un sistema de asesoría académica personalizada y espacios colaborativos[cite: 7].
+* [cite_start]**Diseño y gestión de servicios de asesoría académica personalizada:** Asegurando que los estudiantes reciban el apoyo necesario[cite: 16].
+* [cite_start]**Desarrollo de la interactividad de la plataforma:** Para que los estudiantes puedan explorar y aprender a su propio ritmo[cite: 16].
+* [cite_start]**Implementación de herramientas de evaluación con retroalimentación inmediata:** Desarrolladas con el apoyo de la ingeniería en sistemas[cite: 20].
+* [cite_start]**Diseño y generación de base de datos y del sitio web:** Esto es una actividad a cargo de Serena Mejía Pichardo[cite: 34, 35].
+* [cite_start]**Validación de conexión al servidor y red:** Alan Ismael Montes de Oca Arcos es el responsable de esta actividad[cite: 35].
+* [cite_start]**Revisión del registro del proyecto:** También a cargo de Serena Mejía Pichardo[cite: 35].
+
+**Características y roles generales de los ingenieros en sistemas computacionales:**
+
+* **Participan como docentes:** Como el Ing. Alan Ismael Montes de Oca Arcos y la Ing. [cite_start]Serena Mejía Pichardo[cite: 3, 37].
+* [cite_start]**Forman parte del equipo responsable del proyecto MINDSCHOOL:** Incluyendo a Serena Mejía Pichardo, Mariano Cruz Albarrán, Alan Ismael Montes de Oca Arcos, Carlos Rodrigo Vázquez Valdés y Jorge Luis Cruz Becerril[cite: 3].
+* [cite_start]**Son responsables de la Ingeniería y Tecnología:** En el contexto del proyecto[cite: 4].
+* [cite_start]**Hay alumnos de Ingeniería en Sistemas Computacionales involucrados en el proyecto:** Como Padilla Robles Marlon Israel, Catarino Ávila Saul, y José Martínez Segura, entre otros[cite: 5].
+* [cite_start]**Aplican conocimientos para desarrollar un entorno digital funcional:** Con enfoque en la usabilidad y accesibilidad, incorporando tecnologías modernas[cite: 19].
+* [cite_start]**Son responsables de revisar la conectividad a un servidor y la red (Redes 1):** Lo que implica el modelado, diseño del servidor y conexión a red, buscando establecer una conexión estable[cite: 34].
+* [cite_start]**Se encargan de la revisión de la base de datos y programación (Base de datos 2):** Que incluye el modelado y diseño de la base de datos y del sitio web, con el objetivo de tener el sitio web terminado[cite: 34].
+
+**Adicionalmente, en el "Informe sobre recomendaciones para garantizar la tolerancia a fallos" (elaborado por José Martínez Segura, estudiante de Ingeniería en Sistemas Computacionales), se subraya la importancia de que los sistemas tengan las siguientes características para asegurar su tolerancia a fallos:**
+
+* [cite_start]**Redundancia:** Utilizar múltiples servidores y rutas de red para garantizar la disponibilidad en VoIP[cite: 39].
+* [cite_start]**Calidad de Servicio (QoS):** Configurar QoS en la red para priorizar el tráfico de voz en VoIP[cite: 40].
+* [cite_start]**Monitoreo continuo:** Establecer herramientas de monitoreo para detectar problemas en VoIP[cite: 41].
+* [cite_start]**Copia de seguridad regular:** Realizar copias de seguridad frecuentes de correos y configuraciones de correo electrónico[cite: 42].
+* [cite_start]**Servidores redundantes:** Utilizar servidores de correo en alta disponibilidad[cite: 43].
+* [cite_start]**Filtrado de spam y malware:** Implementar soluciones efectivas de filtrado para proteger la integridad del sistema de correo electrónico[cite: 44].
+* [cite_start]**Acceso a copia de seguridad:** Asegurar que los datos del ERP estén respaldados y accesibles en caso de fallo[cite: 45].
+* [cite_start]**Pruebas de recuperación:** Realizar pruebas periódicas de recuperación de desastres para ERP[cite: 46].
+* [cite_start]**Conexiones redundantes:** Utilizar múltiples conexiones a internet para videoconferencias[cite: 47].
+* [cite_start]**Pruebas de sistema:** Realizar pruebas regulares de hardware y software de videoconferencia[cite: 48].
+* [cite_start]**Soporte técnico disponible:** Tener un equipo de soporte técnico listo para resolver problemas rápidamente en videoconferencias[cite: 49].
+* [cite_start]**Uso de CDN (Red de Entrega de Contenidos):** Implementar CDNs para mejorar la disponibilidad y velocidad de la navegación web[cite: 50].
+* [cite_start]**Mantenimiento y actualizaciones periódicas:** Para el servidor web[cite: 51].
+* [cite_start]**Monitoreo de rendimiento:** Utilizar herramientas de análisis para identificar y solucionar problemas de carga en la navegación web[cite: 52].
+* [cite_start]**Autenticación segura:** Implementar métodos de autenticación robustos para el acceso FTP[cite: 53].
+* [cite_start]**Transferencias encriptadas:** Utilizar FTPS o SFTP para asegurar la transferencia de datos en FTP[cite: 54].
+* [cite_start]**Registro de actividad:** Mantener un registro de todas las transferencias y accesos para auditoría en FTP[cite: 55].
